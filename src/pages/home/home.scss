@@ -1,3 +1,29 @@
-page-home {
+$primary-color: #0B4464;
+$secondary-color: #40A197;
 
+p{
+  font-size: 16px;
+  text-align: justify;
+}
+
+ion-title{
+  text-align: center;
+}
+
+ion-icon{
+  padding-right: 10px;
+}
+
+a{
+  color: $secondary-color;
+}
+
+#img-container{
+  text-align: center;
+}
+
+#circular-title-pic{
+  display:inline-block;
+  width: 100px;
+  height: auto;
 }

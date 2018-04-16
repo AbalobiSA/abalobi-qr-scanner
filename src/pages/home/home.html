@@ -1,14 +1,16 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      Abalobi
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div id="img-container"><img id="circular-title-pic" src="https://res.cloudinary.com/techairos/image/upload/v1521726718/circular_vpxxes.png"/></div>
+  <ion-title>Abalobi Hook to Cook</ion-title>
+  <p>Click on the button below to scan the barcode you received, and discover the story of your fish from hook to cook.
+    Thank you for choosing ecologically responsible and socially fair <a href="https://www.instagram.com/explore/tags/fishwithastory">#fishwithastory</a>.</p>
+  <ion-item><a [href]="url">{{url}}</a></ion-item>
+  <button ion-button block secondary (click)="openQRScanner()"><ion-icon name="camera"></ion-icon>SCAN</button>
 </ion-content>
