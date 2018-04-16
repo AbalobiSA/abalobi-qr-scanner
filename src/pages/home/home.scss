@@ -7,7 +7,10 @@ p{
 }
 
 ion-title{
-  text-align: center;
+  h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif !important;
+  }
 }
 
 ion-icon{
@@ -18,6 +21,10 @@ a{
   color: $secondary-color;
 }
 
+ion-navbar{
+  text-align: center;
+}
+
 #img-container{
   text-align: center;
 }
@@ -26,4 +33,13 @@ a{
   display:inline-block;
   width: 100px;
   height: auto;
+}
+
+#banner_img{
+  width: 100%;
+  height: auto;
+}
+
+#nav_img{
+  height: 55px;
 }

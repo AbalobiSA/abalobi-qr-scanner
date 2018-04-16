@@ -1,16 +1,15 @@
 <ion-header>
   <ion-navbar color="primary">
-    <ion-title>
-      Abalobi
-    </ion-title>
+    <img id="nav_img" src="https://res.cloudinary.com/techairos/image/upload/v1523889571/QR_app_Banner_ylefpe.png">
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <div id="img-container"><img id="circular-title-pic" src="https://res.cloudinary.com/techairos/image/upload/v1521726718/circular_vpxxes.png"/></div>
-  <ion-title>Abalobi Hook to Cook</ion-title>
-  <p>Click on the button below to scan the barcode you received, and discover the story of your fish from hook to cook.
+  <ion-title><h2>FROM HOOK TO COOK</h2></ion-title>
+  <p>Click on the button below to scan the barcode you received, and discover the story of your fish <a href="https://www.instagram.com/explore/tags/fromhooktocook">#fromhooktocook</a>.
     Thank you for choosing ecologically responsible and socially fair <a href="https://www.instagram.com/explore/tags/fishwithastory">#fishwithastory</a>.</p>
   <ion-item><a [href]="url">{{url}}</a></ion-item>
+  <img id="banner_img" src="https://res.cloudinary.com/techairos/image/upload/v1523888739/QR_app_image_small_xmaayj.png">
   <button ion-button block secondary (click)="openQRScanner()"><ion-icon name="camera"></ion-icon>SCAN</button>
 </ion-content>
